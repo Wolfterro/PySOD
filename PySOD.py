@@ -83,11 +83,11 @@ def selectFile(fType):
 # Playing sound file
 # ==================
 def playSound(sndFile):
-		mixer.init()
-		sound = mixer.Sound("Sounds/%s" % (str(sndFile)))
-		sound.play()
-		while mixer.get_busy():
-			return
+	mixer.init()
+	sound = mixer.Sound("Sounds/%s" % (str(sndFile)))
+	sound.play()
+	while mixer.get_busy():
+		return
 
 # Program's main window
 # =====================
