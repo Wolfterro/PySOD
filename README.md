@@ -43,6 +43,7 @@
 
     git clone https://github.com/Wolfterro/PySOD.git
     cd PySOD/
+    chmod +x PySOD.py
     ./PySOD.py
 
 ##### In case you don't have git installed, use this [Link](https://github.com/Wolfterro/PySOD/archive/master.zip) to download this repository or click in the "Clone or Download" button on the top of the page.
